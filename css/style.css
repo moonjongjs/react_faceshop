@@ -1,0 +1,62 @@
+@import url('./fonts.css');
+@import url('./reset.css');
+
+#wrap {}
+#wrap #header {height:90px;background:url(../img/restaurant-img7.jpg);display:flex;border-bottom:1px solid #ddd;box-shadow:0 2px 6px rgba(68, 204, 228, 0.2);}
+#wrap #header h1 {text-align:center;margin:auto;}
+#wrap #header h1 a img {width:300px;height:auto;}
+
+#wrap #main {width:100%;}
+#wrap #main #section1 {width:100%;padding:60px 0;}
+#wrap #main #section1 .container {width:100%;max-width:900px;margin:0 auto;}
+#wrap #main #section1 .container .title {padding:0 0 50px 0;}
+#wrap #main #section1 .container .title h2 {text-align:center;border-bottom:4px double #b68957;padding:0 0 20px 0;}
+#wrap #main #section1 .container .title h2 img {width:130px;}
+
+#wrap #main #section1 .container .content {width:100%;text-align:center;}
+#wrap #main #section1 .container .content .button-box {display:inline-block;padding:0 0 50px 0;}
+#wrap #main #section1 .container .content .button-box ul {display:flex;}
+#wrap #main #section1 .container .content .button-box ul li {margin:0 5px;}
+/* #wrap #main #section1 .container .content .button-box ul li a {display:block;width:150px;height:40px;border:1px solid #ccc;display:flex;align-items:center;align-content:center;} span 태그 없을때 */
+#wrap #main #section1 .container .content .button-box ul li a {display:block;width:150px;height:40px;border:1px solid #b68957;display:flex;font-size:15px;color:#8f5614;background:#fff;transition:all .3s;}
+#wrap #main #section1 .container .content .button-box ul li a:hover {background:#b68957;color:#fff;}
+#wrap #main #section1 .container .content .button-box ul li a.on {background:#b68957;color:#fff;}
+#wrap #main #section1 .container .content .button-box ul li a span {margin:auto;}
+
+
+#wrap #main #section1 .container .content table.notice-box {width:100%;}
+#wrap #main #section1 .container .content table.notice-box th {height:48px;border-top:1px solid #b68957;border-bottom:1px solid #b68957;}
+#wrap #main #section1 .container .content table.notice-box td {height:43px;border-bottom:1px solid #ddd;text-align:center;}
+#wrap #main #section1 .container .content table.notice-box td:nth-child(3) {text-align:left;}
+#wrap #main #section1 .container .content table.notice-box td a {display:block;width:80%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+#wrap #main #section1 .container .content table.notice-box td a:hover {text-decoration:underline;}
+
+#wrap #main #section1 .container .content table.notice-box th:nth-child(1) {width:60px;}
+#wrap #main #section1 .container .content table.notice-box th:nth-child(2) {width:80px;}
+#wrap #main #section1 .container .content table.notice-box th:nth-child(3) {width:620px;}
+#wrap #main #section1 .container .content table.notice-box th:nth-child(4) {width:140px;}
+
+/* 페이지네이션 */
+#wrap #main #section1 .container .content .notice-page {width:100%;text-align:center;padding:30px 0 0 0;}
+#wrap #main #section1 .container .content .notice-page .page-box {display:inline-block;}
+#wrap #main #section1 .container .content .notice-page .page-box .button-box {display:flex;}
+#wrap #main #section1 .container .content .notice-page .page-box .button-box > a.prev-next-btn {margin:0 10px;}
+#wrap #main #section1 .container .content .notice-page .page-box .button-box > a.prev-next-btn img {width:40px;height:40px;}
+#wrap #main #section1 .container .content .notice-page .page-box .button-box .page-wrap {display:flex;}
+#wrap #main #section1 .container .content .notice-page .page-box .button-box .page-wrap li a {width:40px;height:40px;text-align:center;border:1px solid #ddd;color:#555;display:flex;font-size:13px;background:#fff;transition:all .3s;}
+#wrap #main #section1 .container .content .notice-page .page-box .button-box .page-wrap li a:hover {color:#fff;background:#b68957;border:1px solid #b68957;}
+#wrap #main #section1 .container .content .notice-page .page-box .button-box .page-wrap li a.on {color:#fff;background:#b68957;border:1px solid #b68957;}
+#wrap #main #section1 .container .content .notice-page .page-box .button-box .page-wrap li a i {margin:auto;}
+
+/* 처음, 마지막버튼 */
+#wrap #main #section1 .container .content .notice-page .page-box .button-box > a.both-btn {display:block;width:40px;height:40px;background:#6d9811;position:relative;}
+#wrap #main #section1 .container .content .notice-page .page-box .button-box > a.first-btn::before {content:'';position:absolute;top:50%;left:50%;width:12px;height:12px;margin-top:-8px;margin-left:-4px;border:4px double #fff;border-top:0;border-right:0;transform:rotate(45deg);}
+#wrap #main #section1 .container .content .notice-page .page-box .button-box > a.last-btn::before {content:'';position:absolute;top:50%;right:50%;width:12px;height:12px;margin-top:-8px;margin-right:-4px;border:4px double #fff;border-top:0;border-left:0;transform:rotate(-45deg);}
+
+
+
+
+/* #wrap #footer {width:100%;height:60px;background:url(../img/restaurant-img7.jpg);display:flex;position:fixed;bottom:0;left:0;} */
+#wrap #footer {width:100%;height:60px;background:url(../img/restaurant-img7.jpg);display:flex;}
+#wrap #footer h1 {text-align:center;margin:auto;}
+#wrap #footer h1 img {height:25px;width:auto;filter:grayscale(1);opacity:.6;}
